@@ -1,0 +1,67 @@
+$background-color: rgba(197, 247, 59, 0.548);
+$footer-background: #f8f9fa;
+$navbar-background: $background-color;
+$text-color: black;
+
+
+body {
+    background-image: url('../img/fondo-claro2.png');
+  }
+  
+  .navbar {
+    background-color: $navbar-background !important; 
+  
+    .nav-new {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end; 
+      padding: 20px;
+    }
+  
+    .nav-links {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+  
+      li {
+        margin-left: 20px; 
+  
+        a {
+          text-decoration: none;
+          color: $text-color; 
+          padding: 10px 15px;
+        }
+      }
+    }
+  }
+  
+  .logo-img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .fondo-footer {
+    background-color: $background-color !important;
+  }
+  
+  .footer {
+    background-color: $footer-background;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  
+    .contact-info {
+      justify-content: flex-end;
+    }
+  }
+  
+  .titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  
